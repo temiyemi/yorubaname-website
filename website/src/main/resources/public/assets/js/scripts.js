@@ -215,7 +215,7 @@ $(function(){
       $.ajax({
         url: '/v1/names/' + name.toLowerCase(),
         type: 'GET',
-        contentType: "application/json",
+        contentType: "application/json"
       }).success(function (response) {
         disableSending();
       }).error(function () {
